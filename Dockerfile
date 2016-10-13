@@ -23,6 +23,5 @@ RUN set -x \
 # Working Directory
 WORKDIR /data
 
-
 # Entry Point
 CMD ["bash"]
