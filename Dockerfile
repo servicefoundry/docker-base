@@ -18,8 +18,7 @@ RUN set -x \
         git \
         curl \
         tar \
-        bash \
-        coreutils
+        bash
 
 # Working Directory
 WORKDIR /data
