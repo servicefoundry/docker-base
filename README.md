@@ -6,16 +6,8 @@
 It is Alpine, plus:
 
 - Utilities
-  - gnupg
   - git
-  - subversion
-  - openssh-client
   - curl
   - tar
-  - zip
-  - unzip
   - bash
-  - ttf-dejavu
   - coreutils
-  - python
-  - pip

@@ -15,25 +15,15 @@ ENV LANG C.UTF-8
 # Install utility tools
 RUN set -x \
     && apk add --no-cache \
-        gnupg \
         git \
-        subversion \
-        openssh-client \
         curl \
         tar \
-        zip \
-        unzip \
         bash \
-        ttf-dejavu \
-        coreutils \
-        python \
-    && python -m ensurepip \
-    && rm -r /usr/lib/python*/ensurepip \
-    && pip install --upgrade pip setuptools \
-    && rm -r /root/.cache
+        coreutils
 
 # Working Directory
 WORKDIR /data
+
 
 # Entry Point
 CMD ["bash"]
