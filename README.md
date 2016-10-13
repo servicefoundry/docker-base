@@ -6,8 +6,5 @@
 It is Alpine, plus:
 
 - Utilities
-  - git
   - curl
-  - tar
   - bash
-  - coreutils
