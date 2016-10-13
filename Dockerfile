@@ -15,9 +15,7 @@ ENV LANG C.UTF-8
 # Install utility tools
 RUN set -x \
     && apk add --no-cache \
-        git \
         curl \
-        tar \
         bash
 
 # Working Directory
