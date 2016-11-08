@@ -8,3 +8,4 @@ It is Alpine, plus:
 - Utilities
   - curl
   - bash
+  - gnupg
