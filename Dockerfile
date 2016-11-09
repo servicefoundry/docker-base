@@ -15,9 +15,10 @@ ENV LANG C.UTF-8
 # Install utility tools
 RUN set -x \
     && apk add --no-cache \
-        curl \
         bash \
-        gnupg
+        curl \
+        gnupg \
+        tar
 
 # Working Directory
 WORKDIR /data

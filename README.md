@@ -6,6 +6,7 @@
 It is Alpine, plus:
 
 - Utilities
-  - curl
   - bash
+  - curl
   - gnupg
+  - tar
